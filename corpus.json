@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "benchmark": "MMLU",
+    "total_questions": 30,
+    "domains": ["us_history", "moral_philosophy", "mathematics"],
+    "languages": ["en", "fr", "ar"],
+    "description": "Stress-test de robustesse linguistique — Exercice 2"
+  },
+  "questions": [
+
+    {
+      "id": "hist_01",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "Which constitutional amendment abolished slavery in the United States?",
+        "choices": ["A. 13th Amendment", "B. 14th Amendment", "C. 15th Amendment", "D. 12th Amendment"],
+        "answer": "A"
+      },
+      "fr": {
+        "question": "Quel amendement constitutionnel a aboli l'esclavage aux États-Unis ?",
+        "choices": ["A. 13e amendement", "B. 14e amendement", "C. 15e amendement", "D. 12e amendement"],
+        "answer": "A"
+      },
+      "ar": {
+        "question": "أي تعديل دستوري ألغى العبودية في الولايات المتحدة؟",
+        "choices": ["A. التعديل الثالث عشر", "B. التعديل الرابع عشر", "C. التعديل الخامس عشر", "D. التعديل الثاني عشر"],
+        "answer": "A"
+      }
+    },
+
+    {
+      "id": "hist_02",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "The Missouri Compromise of 1820 primarily addressed which issue?",
+        "choices": ["A. Native American land rights", "B. The balance of slave and free states", "C. Trade tariffs with Britain", "D. Presidential election rules"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Le compromis du Missouri de 1820 traitait principalement de quelle question ?",
+        "choices": ["A. Les droits fonciers des Amérindiens", "B. L'équilibre entre États esclavagistes et États libres", "C. Les droits de douane avec la Grande-Bretagne", "D. Les règles d'élection présidentielle"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "تناول تسوية ميسوري عام 1820 بشكل رئيسي أي قضية؟",
+        "choices": ["A. حقوق الأراضي للسكان الأصليين", "B. التوازن بين الولايات المؤيدة والمعارضة للعبودية", "C. التعريفات الجمركية مع بريطانيا", "D. قواعد الانتخابات الرئاسية"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "hist_03",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "The New Deal programs of the 1930s were primarily a response to which event?",
+        "choices": ["A. World War I", "B. The Great Depression", "C. The Spanish-American War", "D. The Dust Bowl only"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Les programmes du New Deal des années 1930 étaient principalement une réponse à quel événement ?",
+        "choices": ["A. La Première Guerre mondiale", "B. La Grande Dépression", "C. La guerre hispano-américaine", "D. Le Dust Bowl uniquement"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "كانت برامج الصفقة الجديدة في الثلاثينيات استجابةً بشكل رئيسي لأي حدث؟",
+        "choices": ["A. الحرب العالمية الأولى", "B. الكساد الكبير", "C. الحرب الإسبانية الأمريكية", "D. عاصفة الغبار فقط"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "hist_04",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "Which Supreme Court case established the principle of judicial review in the United States?",
+        "choices": ["A. McCulloch v. Maryland", "B. Dred Scott v. Sandford", "C. Marbury v. Madison", "D. Plessy v. Ferguson"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quelle décision de la Cour suprême a établi le principe du contrôle judiciaire aux États-Unis ?",
+        "choices": ["A. McCulloch c. Maryland", "B. Dred Scott c. Sandford", "C. Marbury c. Madison", "D. Plessy c. Ferguson"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "أي قضية في المحكمة العليا أرست مبدأ المراجعة القضائية في الولايات المتحدة؟",
+        "choices": ["A. ماكولوك ضد ماريلاند", "B. دريد سكوت ضد ساندفورد", "C. ماربوري ضد ماديسون", "D. بليسي ضد فيرغسون"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "hist_05",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "The Emancipation Proclamation issued by President Lincoln in 1863 declared free the slaves in which territories?",
+        "choices": ["A. All US territories", "B. Only Northern states", "C. Confederate states in rebellion", "D. Border states only"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "La Proclamation d'émancipation émise par le président Lincoln en 1863 déclarait libres les esclaves dans quels territoires ?",
+        "choices": ["A. Tous les territoires américains", "B. Uniquement les États du Nord", "C. Les États confédérés en rébellion", "D. Uniquement les États frontaliers"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "أعلن إعلان التحرر الذي أصدره الرئيس لينكولن عام 1863 تحرير العبيد في أي مناطق؟",
+        "choices": ["A. جميع الأراضي الأمريكية", "B. الولايات الشمالية فقط", "C. الولايات الكونفدرالية المتمردة", "D. الولايات الحدودية فقط"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "hist_06",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "What was the primary purpose of the Marshall Plan after World War II?",
+        "choices": ["A. To rebuild European economies", "B. To establish NATO", "C. To create the United Nations", "D. To punish Germany"],
+        "answer": "A"
+      },
+      "fr": {
+        "question": "Quel était l'objectif principal du Plan Marshall après la Seconde Guerre mondiale ?",
+        "choices": ["A. Reconstruire les économies européennes", "B. Établir l'OTAN", "C. Créer les Nations Unies", "D. Punir l'Allemagne"],
+        "answer": "A"
+      },
+      "ar": {
+        "question": "ما كان الهدف الرئيسي لخطة مارشال بعد الحرب العالمية الثانية؟",
+        "choices": ["A. إعادة بناء الاقتصادات الأوروبية", "B. إنشاء حلف الناتو", "C. إنشاء الأمم المتحدة", "D. معاقبة ألمانيا"],
+        "answer": "A"
+      }
+    },
+
+    {
+      "id": "hist_07",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "The concept of Manifest Destiny in 19th century America primarily justified what?",
+        "choices": ["A. The abolition of slavery", "B. Westward territorial expansion", "C. Industrial development in the East", "D. Immigration from Europe"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Le concept de la Destinée manifeste dans l'Amérique du XIXe siècle justifiait principalement quoi ?",
+        "choices": ["A. L'abolition de l'esclavage", "B. L'expansion territoriale vers l'ouest", "C. Le développement industriel à l'Est", "D. L'immigration depuis l'Europe"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "مفهوم القدر الجلي في أمريكا القرن التاسع عشر كان يبرر بشكل رئيسي ماذا؟",
+        "choices": ["A. إلغاء العبودية", "B. التوسع الإقليمي نحو الغرب", "C. التطوير الصناعي في الشرق", "D. الهجرة من أوروبا"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "hist_08",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "Which event directly triggered the United States' entry into World War II?",
+        "choices": ["A. The invasion of Poland", "B. The fall of France", "C. The attack on Pearl Harbor", "D. The bombing of London"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quel événement a directement déclenché l'entrée des États-Unis dans la Seconde Guerre mondiale ?",
+        "choices": ["A. L'invasion de la Pologne", "B. La chute de la France", "C. L'attaque sur Pearl Harbor", "D. Le bombardement de Londres"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "أي حدث أشعل مباشرةً دخول الولايات المتحدة في الحرب العالمية الثانية؟",
+        "choices": ["A. غزو بولندا", "B. سقوط فرنسا", "C. الهجوم على بيرل هاربر", "D. قصف لندن"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "hist_09",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "The Civil Rights Act of 1964 primarily prohibited discrimination based on what?",
+        "choices": ["A. Age and disability", "B. Race, color, religion, sex, or national origin", "C. Political affiliation", "D. Economic status"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "La loi sur les droits civiques de 1964 interdisait principalement la discrimination fondée sur quoi ?",
+        "choices": ["A. L'âge et le handicap", "B. La race, la couleur, la religion, le sexe ou l'origine nationale", "C. L'appartenance politique", "D. Le statut économique"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "حظر قانون الحقوق المدنية لعام 1964 بشكل رئيسي التمييز على أساس ماذا؟",
+        "choices": ["A. العمر والإعاقة", "B. العرق واللون والدين والجنس أو الأصل القومي", "C. الانتماء السياسي", "D. الوضع الاقتصادي"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "hist_10",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "en": {
+        "question": "Which document begins with the words 'We the People'?",
+        "choices": ["A. The Declaration of Independence", "B. The Bill of Rights", "C. The Articles of Confederation", "D. The US Constitution"],
+        "answer": "D"
+      },
+      "fr": {
+        "question": "Quel document commence par les mots 'Nous, le Peuple' ?",
+        "choices": ["A. La Déclaration d'indépendance", "B. La Déclaration des droits", "C. Les Articles de la Confédération", "D. La Constitution américaine"],
+        "answer": "D"
+      },
+      "ar": {
+        "question": "أي وثيقة تبدأ بعبارة 'نحن الشعب'؟",
+        "choices": ["A. إعلان الاستقلال", "B. وثيقة الحقوق", "C. مواد الكونفدرالية", "D. الدستور الأمريكي"],
+        "answer": "D"
+      }
+    },
+
+    {
+      "id": "mora_01",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "According to Kant's categorical imperative, an action is morally correct if:",
+        "choices": ["A. It produces the greatest happiness for the greatest number", "B. It can be universalized without contradiction", "C. It is approved by society", "D. It follows religious doctrine"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Selon l'impératif catégorique de Kant, une action est moralement correcte si :",
+        "choices": ["A. Elle produit le plus grand bonheur pour le plus grand nombre", "B. Elle peut être universalisée sans contradiction", "C. Elle est approuvée par la société", "D. Elle suit la doctrine religieuse"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "وفقاً للأمر المطلق عند كانط، يكون الفعل صحيحاً أخلاقياً إذا:",
+        "choices": ["A. أنتج أكبر قدر من السعادة لأكبر عدد", "B. يمكن تعميمه دون تناقض", "C. حظي بموافقة المجتمع", "D. اتبع العقيدة الدينية"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_02",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "Utilitarianism, as developed by John Stuart Mill, holds that the morality of an action is determined by:",
+        "choices": ["A. Its conformity with divine law", "B. Its consequences for overall happiness", "C. The intention behind the action", "D. Social consensus"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "L'utilitarisme, tel que développé par John Stuart Mill, soutient que la moralité d'une action est déterminée par :",
+        "choices": ["A. Sa conformité avec la loi divine", "B. Ses conséquences sur le bonheur général", "C. L'intention derrière l'action", "D. Le consensus social"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "النفعية كما طورها جون ستيوارت ميل تؤكد أن أخلاقية الفعل تتحدد بـ:",
+        "choices": ["A. توافقه مع القانون الإلهي", "B. عواقبه على السعادة الكلية", "C. النية وراء الفعل", "D. الإجماع الاجتماعي"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_03",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "The trolley problem is primarily used in ethics to illustrate:",
+        "choices": ["A. The importance of railway safety", "B. Conflicts between utilitarian and deontological ethics", "C. The role of government in public safety", "D. Environmental ethics"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Le problème du tramway est principalement utilisé en éthique pour illustrer :",
+        "choices": ["A. L'importance de la sécurité ferroviaire", "B. Les conflits entre l'éthique utilitariste et déontologique", "C. Le rôle du gouvernement dans la sécurité publique", "D. L'éthique environnementale"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "يُستخدم مشكلة العربة بشكل رئيسي في الأخلاق لتوضيح:",
+        "choices": ["A. أهمية سلامة السكك الحديدية", "B. التعارض بين الأخلاق النفعية والواجبية", "C. دور الحكومة في السلامة العامة", "D. الأخلاق البيئية"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_04",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "In virtue ethics, as developed by Aristotle, the primary goal of moral life is:",
+        "choices": ["A. Following divine commandments", "B. Maximizing pleasure and minimizing pain", "C. Achieving eudaimonia (flourishing) through virtuous character", "D. Obeying social contracts"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Dans l'éthique des vertus, telle que développée par Aristote, le but principal de la vie morale est :",
+        "choices": ["A. Suivre les commandements divins", "B. Maximiser le plaisir et minimiser la douleur", "C. Atteindre l'eudaimonia (épanouissement) par un caractère vertueux", "D. Obéir aux contrats sociaux"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "في أخلاق الفضيلة كما طورها أرسطو، الهدف الرئيسي للحياة الأخلاقية هو:",
+        "choices": ["A. اتباع الوصايا الإلهية", "B. تعظيم المتعة وتقليل الألم", "C. تحقيق السعادة القصوى من خلال الشخصية الفاضلة", "D. إطاعة العقود الاجتماعية"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "mora_05",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "Which ethical framework emphasizes that the ends justify the means?",
+        "choices": ["A. Deontology", "B. Virtue ethics", "C. Consequentialism", "D. Divine command theory"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quel cadre éthique insiste sur le fait que la fin justifie les moyens ?",
+        "choices": ["A. La déontologie", "B. L'éthique des vertus", "C. Le conséquentialisme", "D. La théorie du commandement divin"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "أي إطار أخلاقي يؤكد أن الغاية تبرر الوسيلة؟",
+        "choices": ["A. الواجبية", "B. أخلاق الفضيلة", "C. النتائجية", "D. نظرية الأمر الإلهي"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "mora_06",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "John Rawls' 'veil of ignorance' thought experiment is designed to:",
+        "choices": ["A. Promote religious neutrality in law", "B. Establish principles of justice without personal bias", "C. Justify economic inequality", "D. Define the limits of free speech"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "L'expérience de pensée du 'voile d'ignorance' de John Rawls est conçue pour :",
+        "choices": ["A. Promouvoir la neutralité religieuse dans le droit", "B. Établir des principes de justice sans biais personnel", "C. Justifier les inégalités économiques", "D. Définir les limites de la liberté d'expression"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "تجربة الفكر 'حجاب الجهل' لجون راولز مصممة لـ:",
+        "choices": ["A. تعزيز الحياد الديني في القانون", "B. وضع مبادئ العدالة دون تحيز شخصي", "C. تبرير عدم المساواة الاقتصادية", "D. تحديد حدود حرية التعبير"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_07",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "The ethical principle of 'do no harm' is most closely associated with which tradition?",
+        "choices": ["A. Kantian ethics", "B. Medical ethics (primum non nocere)", "C. Social contract theory", "D. Relativism"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Le principe éthique 'ne pas nuire' est le plus étroitement associé à quelle tradition ?",
+        "choices": ["A. L'éthique kantienne", "B. L'éthique médicale (primum non nocere)", "C. La théorie du contrat social", "D. Le relativisme"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "المبدأ الأخلاقي 'لا تضر' يرتبط بشكل وثيق بأي تقليد؟",
+        "choices": ["A. أخلاق كانط", "B. الأخلاق الطبية (أولاً لا تؤذِ)", "C. نظرية العقد الاجتماعي", "D. النسبية"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_08",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "Moral relativism is the view that moral judgments are:",
+        "choices": ["A. Universal and objective", "B. Determined by divine will", "C. Relative to cultural or individual standards", "D. Based on natural law"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Le relativisme moral est la conception selon laquelle les jugements moraux sont :",
+        "choices": ["A. Universels et objectifs", "B. Déterminés par la volonté divine", "C. Relatifs aux normes culturelles ou individuelles", "D. Basés sur le droit naturel"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "النسبية الأخلاقية هي الرأي القائل بأن الأحكام الأخلاقية:",
+        "choices": ["A. عالمية وموضوعية", "B. تحددها الإرادة الإلهية", "C. نسبية للمعايير الثقافية أو الفردية", "D. مبنية على القانون الطبيعي"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "mora_09",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "Peter Singer's argument for animal rights is primarily based on which ethical principle?",
+        "choices": ["A. Animals have natural rights like humans", "B. The capacity to suffer is the basis for moral consideration", "C. Religious teachings about stewardship", "D. Legal personhood for animals"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "L'argument de Peter Singer pour les droits des animaux est principalement fondé sur quel principe éthique ?",
+        "choices": ["A. Les animaux ont des droits naturels comme les humains", "B. La capacité à souffrir est la base de la considération morale", "C. Les enseignements religieux sur l'intendance", "D. La personnalité juridique pour les animaux"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "حجة بيتر سينغر لحقوق الحيوان مبنية بشكل رئيسي على أي مبدأ أخلاقي؟",
+        "choices": ["A. الحيوانات لها حقوق طبيعية كالبشر", "B. القدرة على المعاناة هي أساس الاعتبار الأخلاقي", "C. التعاليم الدينية حول الوصاية", "D. الشخصية القانونية للحيوانات"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "mora_10",
+      "domain": "moral_philosophy",
+      "cultural_load": "high",
+      "en": {
+        "question": "The social contract theory, as described by Rousseau, argues that political authority derives from:",
+        "choices": ["A. Divine right of kings", "B. Military power", "C. An agreement among free and equal individuals", "D. Economic necessity"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "La théorie du contrat social, telle que décrite par Rousseau, soutient que l'autorité politique découle de :",
+        "choices": ["A. Le droit divin des rois", "B. La puissance militaire", "C. Un accord entre individus libres et égaux", "D. La nécessité économique"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "نظرية العقد الاجتماعي كما وصفها روسو تؤكد أن السلطة السياسية مستمدة من:",
+        "choices": ["A. الحق الإلهي للملوك", "B. القوة العسكرية", "C. اتفاقية بين أفراد أحرار ومتساوين", "D. الضرورة الاقتصادية"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_01",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is the derivative of f(x) = x² + 3x + 5?",
+        "choices": ["A. 2x + 3", "B. x² + 3", "C. 2x + 5", "D. x + 3"],
+        "answer": "A"
+      },
+      "fr": {
+        "question": "Quelle est la dérivée de f(x) = x² + 3x + 5 ?",
+        "choices": ["A. 2x + 3", "B. x² + 3", "C. 2x + 5", "D. x + 3"],
+        "answer": "A"
+      },
+      "ar": {
+        "question": "ما هو مشتق الدالة f(x) = x² + 3x + 5؟",
+        "choices": ["A. 2x + 3", "B. x² + 3", "C. 2x + 5", "D. x + 3"],
+        "answer": "A"
+      }
+    },
+
+    {
+      "id": "math_02",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "If a triangle has sides of length 3, 4, and 5, what type of triangle is it?",
+        "choices": ["A. Equilateral", "B. Isosceles", "C. Right triangle", "D. Obtuse triangle"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Si un triangle a des côtés de longueur 3, 4 et 5, quel type de triangle est-ce ?",
+        "choices": ["A. Équilatéral", "B. Isocèle", "C. Triangle rectangle", "D. Triangle obtus"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "إذا كان مثلث أضلاعه 3 و4 و5، فما نوع هذا المثلث؟",
+        "choices": ["A. متساوي الأضلاع", "B. متساوي الساقين", "C. مثلث قائم الزاوية", "D. مثلث منفرج"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_03",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is the value of log₁₀(1000)?",
+        "choices": ["A. 2", "B. 3", "C. 4", "D. 10"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Quelle est la valeur de log₁₀(1000) ?",
+        "choices": ["A. 2", "B. 3", "C. 4", "D. 10"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "ما قيمة log₁₀(1000)؟",
+        "choices": ["A. 2", "B. 3", "C. 4", "D. 10"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "math_04",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is the probability of getting heads twice in a row when flipping a fair coin?",
+        "choices": ["A. 1/2", "B. 1/3", "C. 1/4", "D. 1/8"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quelle est la probabilité d'obtenir deux fois face de suite en lançant une pièce équilibrée ?",
+        "choices": ["A. 1/2", "B. 1/3", "C. 1/4", "D. 1/8"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "ما احتمال الحصول على وجه العملة مرتين متتاليتين عند رمي عملة نظيفة؟",
+        "choices": ["A. 1/2", "B. 1/3", "C. 1/4", "D. 1/8"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_05",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "Solve for x: 2x + 6 = 14",
+        "choices": ["A. x = 3", "B. x = 4", "C. x = 5", "D. x = 10"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Résoudre pour x : 2x + 6 = 14",
+        "choices": ["A. x = 3", "B. x = 4", "C. x = 5", "D. x = 10"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "حل المعادلة: 2x + 6 = 14",
+        "choices": ["A. x = 3", "B. x = 4", "C. x = 5", "D. x = 10"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "math_06",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is the area of a circle with radius 5? (Use π ≈ 3.14)",
+        "choices": ["A. 15.7", "B. 31.4", "C. 78.5", "D. 25"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quelle est l'aire d'un cercle de rayon 5 ? (Utiliser π ≈ 3,14)",
+        "choices": ["A. 15,7", "B. 31,4", "C. 78,5", "D. 25"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "ما مساحة دائرة نصف قطرها 5؟ (استخدم π ≈ 3.14)",
+        "choices": ["A. 15.7", "B. 31.4", "C. 78.5", "D. 25"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_07",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "Which of the following is a prime number?",
+        "choices": ["A. 15", "B. 21", "C. 37", "D. 49"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Lequel des nombres suivants est un nombre premier ?",
+        "choices": ["A. 15", "B. 21", "C. 37", "D. 49"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "أي من الأعداد التالية هو عدد أولي؟",
+        "choices": ["A. 15", "B. 21", "C. 37", "D. 49"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_08",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is the sum of the interior angles of a quadrilateral?",
+        "choices": ["A. 180°", "B. 270°", "C. 360°", "D. 540°"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Quelle est la somme des angles intérieurs d'un quadrilatère ?",
+        "choices": ["A. 180°", "B. 270°", "C. 360°", "D. 540°"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "ما مجموع الزوايا الداخلية للرباعي؟",
+        "choices": ["A. 180°", "B. 270°", "C. 360°", "D. 540°"],
+        "answer": "C"
+      }
+    },
+
+    {
+      "id": "math_09",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "If f(x) = 2x - 4, what is f(5)?",
+        "choices": ["A. 4", "B. 6", "C. 8", "D. 10"],
+        "answer": "B"
+      },
+      "fr": {
+        "question": "Si f(x) = 2x - 4, quelle est la valeur de f(5) ?",
+        "choices": ["A. 4", "B. 6", "C. 8", "D. 10"],
+        "answer": "B"
+      },
+      "ar": {
+        "question": "إذا كانت f(x) = 2x - 4، فما قيمة f(5)؟",
+        "choices": ["A. 4", "B. 6", "C. 8", "D. 10"],
+        "answer": "B"
+      }
+    },
+
+    {
+      "id": "math_10",
+      "domain": "mathematics",
+      "cultural_load": "low",
+      "en": {
+        "question": "What is 15% of 200?",
+        "choices": ["A. 20", "B. 25", "C. 30", "D. 35"],
+        "answer": "C"
+      },
+      "fr": {
+        "question": "Combien représente 15% de 200 ?",
+        "choices": ["A. 20", "B. 25", "C. 30", "D. 35"],
+        "answer": "C"
+      },
+      "ar": {
+        "question": "ما هو 15% من 200؟",
+        "choices": ["A. 20", "B. 25", "C. 30", "D. 35"],
+        "answer": "C"
+      }
+    }
+
+  ]
+}

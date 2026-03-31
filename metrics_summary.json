@@ -1,0 +1,100 @@
+{
+  "global": {
+    "n_items": 30,
+    "score_en": 86.67,
+    "score_fr": 86.67,
+    "score_ar": 53.33,
+    "ssl_en_fr": 0.0,
+    "ssl_en_ar": 33.33,
+    "ssl_global": 16.67,
+    "interpretation": "Biais fort — la langue affecte significativement le score"
+  },
+  "by_domain": {
+    "us_history": {
+      "n_items": 10,
+      "score_en": 90.0,
+      "score_fr": 90.0,
+      "score_ar": 40.0,
+      "ssl_en_fr": 0.0,
+      "ssl_en_ar": 50.0,
+      "ssl_global": 25.0,
+      "interpretation": "Biais critique — le benchmark mesure la langue autant que la compétence"
+    },
+    "moral_philosophy": {
+      "n_items": 10,
+      "score_en": 100.0,
+      "score_fr": 100.0,
+      "score_ar": 70.0,
+      "ssl_en_fr": 0.0,
+      "ssl_en_ar": 30.0,
+      "ssl_global": 15.0,
+      "interpretation": "Biais fort — la langue affecte significativement le score"
+    },
+    "mathematics": {
+      "n_items": 10,
+      "score_en": 70.0,
+      "score_fr": 70.0,
+      "score_ar": 50.0,
+      "ssl_en_fr": 0.0,
+      "ssl_en_ar": 20.0,
+      "ssl_global": 10.0,
+      "interpretation": "Biais modéré — sensibilité linguistique détectable"
+    }
+  },
+  "stability_distribution": {
+    "instable": 12,
+    "stable": 18
+  },
+  "top5_unstable": [
+    {
+      "item_id": "hist_01",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "score_en": 1,
+      "score_fr": 1,
+      "score_ar": 0,
+      "robustness_R": 0.5286,
+      "stability": "instable"
+    },
+    {
+      "item_id": "hist_03",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "score_en": 1,
+      "score_fr": 1,
+      "score_ar": 0,
+      "robustness_R": 0.5286,
+      "stability": "instable"
+    },
+    {
+      "item_id": "hist_06",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "score_en": 1,
+      "score_fr": 1,
+      "score_ar": 0,
+      "robustness_R": 0.5286,
+      "stability": "instable"
+    },
+    {
+      "item_id": "hist_07",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "score_en": 1,
+      "score_fr": 1,
+      "score_ar": 0,
+      "robustness_R": 0.5286,
+      "stability": "instable"
+    },
+    {
+      "item_id": "hist_08",
+      "domain": "us_history",
+      "cultural_load": "high",
+      "score_en": 1,
+      "score_fr": 1,
+      "score_ar": 0,
+      "robustness_R": 0.5286,
+      "stability": "instable"
+    }
+  ]
+}
